@@ -1,11 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class Box extends Component {
-  render() {
-    return <h2>This is a {this.props.size}px Box!</h2>;
-  }
+function Box(props) {
+  return <h2>This is a {props.size}px Box!</h2>;
 }
 
 export default Box;
-
-
